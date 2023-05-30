@@ -9,6 +9,8 @@ namespace number___3
             Console.WriteLine("Enter a Number : ");
             int number = int.Parse(Console.ReadLine());
             Console.WriteLine("The tripled number is : "+ number * 3);
+            Console.ReadKey();
+
         }
     }
 }
